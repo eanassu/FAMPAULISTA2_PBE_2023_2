@@ -67,7 +67,8 @@ public class ServletTabela extends HttpServlet {
 					+ "<td>" + currencyFormat.format(f.getSalario()) + "</td>\r\n"
 					+ "</tr>");
 		}
-		out.print("</table>\r\n"
+		out.print("</table><br/>\r\n"
+				+ "<a href='/Projeto'>voltar</a>"
 				+ "</body>\r\n"
 				+ "</html>");
 	}
