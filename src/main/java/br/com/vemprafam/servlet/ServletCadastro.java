@@ -53,6 +53,7 @@ public class ServletCadastro extends HttpServlet {
 		dao.inserir(f);
 		PrintWriter out = response.getWriter();
 		out.println("inserido");
+		out.println("<a href=\"/Projeto\">voltar</a>");
 	}
 
 	/**

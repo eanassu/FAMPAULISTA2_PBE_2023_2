@@ -41,6 +41,7 @@ public class ServletExclusao extends HttpServlet {
 		dao.excluir(f);
 		PrintWriter out = response.getWriter();
 		out.println("excluído");
+		out.println("<a href=\"/Projeto\">voltar</a>");
 	}
 
 	/**
