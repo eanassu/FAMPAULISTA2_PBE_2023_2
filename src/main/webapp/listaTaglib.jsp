@@ -18,8 +18,7 @@
 	<th>data de nascimento</th>
 	<th>salário</th>
 </tr>
-<jsp:useBean id="dao" class="br.com.vemprafam.dao.DaoFuncionario"/>
-<c:forEach var="f" items="${dao.lista}">
+<c:forEach var="f" items="${funcionarios}">
 <tr>
 <td>${f.re}</td>
 <td>${f.nome}</td>
